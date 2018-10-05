@@ -69,3 +69,6 @@ persist.data.df.dev_name=rmnet_usb0
 #ro.use_data_netmgrd=true
 persist.data.netmgrd.qos.enable=true
 persist.data.mode=concurrent
+
+ro.skip.fingerprint.check=true
+
