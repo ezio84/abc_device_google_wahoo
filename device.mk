@@ -796,6 +796,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.vulkan=adreno \
     ro.gfx.driver.0=com.google.pixel.wahoo.gfxdrv
 
-# Last stock security patch levels
-PLATFORM_FAKE_SECURITY_PATCH := 2020-10-05
-VENDOR_SECURITY_PATCH := "2020-10-05"
+# Setting vendor SPL
+VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
