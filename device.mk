@@ -800,5 +800,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.gfx.driver.0=com.google.pixel.wahoo.gfxdrv
 
 # Last stock security patch levels
-PLATFORM_SECURITY_PATCH := 2020-10-05
+PLATFORM_FAKE_SECURITY_PATCH := 2020-10-05
 VENDOR_SECURITY_PATCH := "2020-10-05"
